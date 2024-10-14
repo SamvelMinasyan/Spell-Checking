@@ -2,14 +2,13 @@
 # Spell Checker Evaluation Report
 
 ## Introduction
-This report evaluates three spell checkers (TextBlob, SymSpell, GPT-3) on a synthetic dataset with various spelling errors. Each spell checker’s performance is assessed based on accuracy, precision, recall, F1 score, and edit distance.
+This report evaluates spell checkers (TextBlob, SymSpell) on a synthetic dataset with various spelling errors. Each spell checker’s performance is assessed based on accuracy, precision, recall, F1 score, and edit distance.
 
 ## Methodology
 1. **Data Preparation**: A dataset with synthetic spelling errors was created.
 2. **Tools Evaluated**:
    - **TextBlob**: Simple dictionary-based correction.
    - **SymSpell**: Fast, dictionary-based correction with good performance for common errors.
-   - **GPT-3**: Context-sensitive model providing highly accurate corrections.
 
 3. **Metrics**:
    - **Accuracy**: Measures the percentage of words correctly corrected.
