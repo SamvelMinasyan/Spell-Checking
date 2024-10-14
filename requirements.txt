@@ -1,0 +1,6 @@
+plaintext
+requests
+textblob
+symspellpy
+openai
+scikit-learn
